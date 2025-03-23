@@ -76,7 +76,7 @@ class GreaterOptimizer:
         supported, model_name = model_supported(model)
         assert supported, f"Model: {model} is not supported"
 
-        model_class = getattr(importlib.import_module("src.greaterprompt.models"), model_name)
+        model_class = getattr(importlib.import_module("greaterprompt.models"), model_name)
         self.client = model_class(model, tokenizer)
 
         for param in self.client.model.parameters():
