@@ -36,7 +36,7 @@ setup(
     # For a discussion on single-sourcing the version across setup.py and the
     # project code, see
     # https://packaging.python.org/guides/single-sourcing-package-version/
-    version="1.0.2",  # Required
+    version="1.0.3",  # Required
     # This is a one-line description or tagline of what your project does. This
     # corresponds to the "Summary" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#summary
@@ -126,7 +126,7 @@ setup(
     # For an analysis of "install_requires" vs pip's requirements files see:
     # https://packaging.python.org/discussions/install-requires-vs-requirements/
     install_requires=[
-        "accelerate", "autopep8==2.3.2", "black==25.1.0", "datasets==3.3.2", 
+        "altair", "accelerate", "autopep8==2.3.2", "black==25.1.0", "datasets==3.3.2", 
         "diskcache==5.6.3", "fschat", "graphviz==0.20.3", "guidance==0.0.64", 
         "httpx==0.28.1", "numpy", "pandas==2.2.3", "Pillow==11.1.0", "platformdirs==4.3.6", 
         "psutil", "protobuf==6.30.1", "pytest==8.3.5", "python-dotenv==1.0.1", 
